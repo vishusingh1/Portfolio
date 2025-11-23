@@ -45,11 +45,11 @@ export const projects = [
     tech: ["React", "Tailwind", "RapidAPI"],
   },
   {
-    name: "Ewheelers Modules",
-    desc: "Worked on full-stack modules using Wrangler CLI, Drizzle ORM, and Next.js.",
-    live: "#",
-    repo: "#",
-    tech: ["Next.js", "Drizzle ORM", "NeonDB", "Wrangler CLI"],
+    name: "Smart Notes",
+    desc: "Smart Notes is a small full-stack project I built to manage and organize notes. It has features like creating, editing, deleting, and viewing notes, and also includes an AI summary option so users can quickly generate short descriptions of their notes. The backend is built with Node.js, Express, Drizzle ORM, and Neon Postgres, while the frontend uses React + TypeScript. I deployed the client on Netlify and the server on Render.",
+    live: "https://smartnotes1.netlify.app/",
+    repo: "https://github.com/vishusingh1/SmartNotes",
+    tech: ["React.js", "Drizzle ORM", "PostgreSql", "Express"],
   },
 ];
 
