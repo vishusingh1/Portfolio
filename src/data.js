@@ -38,6 +38,22 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "Task Manager (Full Stack)",
+    desc: "A full-stack task management application with authentication, user-specific tasks, and dashboard insights. Built with React + TypeScript on the frontend and Node.js, Express, Drizzle ORM, and Neon PostgreSQL on the backend. Features include JWT auth, protected routes, task creation, task listing, and real-time task statistics. Deployed with Netlify (frontend) and Render (backend).",
+    live: "https://taskmanager-21.netlify.app/",
+    repo: "https://github.com/vishusingh1/task_manager.git",
+    tech: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Drizzle ORM",
+      "PostgreSQL (Neon)",
+      "JWT",
+      "Tailwind CSS",
+    ],
+  },
+  {
     name: "Home Gym Exercise",
     desc: "A fitness platform offering personalized workout plans and exercise recommendations.",
     live: "https://homegym118.netlify.app/",
@@ -46,12 +62,13 @@ export const projects = [
   },
   {
     name: "Smart Notes",
-    desc: "Smart Notes is a small full-stack project I built to manage and organize notes. It has features like creating, editing, deleting, and viewing notes, and also includes an AI summary option so users can quickly generate short descriptions of their notes. The backend is built with Node.js, Express, Drizzle ORM, and Neon Postgres, while the frontend uses React + TypeScript. I deployed the client on Netlify and the server on Render.",
+    desc: "Smart Notes is a small full-stack project to manage and organize notes with CRUD functionality and AI-generated summaries. Built using React + TypeScript on the frontend and Node.js, Express, Drizzle ORM, and Neon PostgreSQL on the backend. Deployed on Netlify and Render.",
     live: "https://smartnotes1.netlify.app/",
     repo: "https://github.com/vishusingh1/SmartNotes",
-    tech: ["React.js", "Drizzle ORM", "PostgreSql", "Express"],
+    tech: ["React", "TypeScript", "Drizzle ORM", "PostgreSQL", "Express"],
   },
 ];
+
 
 export const skills = {
   frontend: ["React.js", "Next.js", "HTML", "CSS", "Tailwind"],
